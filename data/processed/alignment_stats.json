@@ -1,0 +1,5241 @@
+{
+  "input_file": "/workspaces/esm2-hydroxylase-conservation/data/raw/all_hydroxylases.fasta",
+  "output_file": "/workspaces/esm2-hydroxylase-conservation/data/processed/alignment.fasta",
+  "num_sequences": 30,
+  "alignment_length": 809,
+  "total_positions": 24270,
+  "gap_positions": 10234,
+  "gap_percentage": 42.16728471363824,
+  "fully_conserved_count": 5,
+  "fully_conserved_positions": [
+    {
+      "column": 349,
+      "residue": "G"
+    },
+    {
+      "column": 362,
+      "residue": "Y"
+    },
+    {
+      "column": 431,
+      "residue": "G"
+    },
+    {
+      "column": 527,
+      "residue": "L"
+    },
+    {
+      "column": 696,
+      "residue": "G"
+    }
+  ],
+  "gap_heavy_columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    109,
+    126,
+    127,
+    128,
+    130,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    157,
+    158,
+    159,
+    165,
+    166,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    240,
+    241,
+    248,
+    249,
+    257,
+    258,
+    259,
+    275,
+    276,
+    277,
+    292,
+    294,
+    295,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    466,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    491,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548,
+    549,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    596,
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    632,
+    633,
+    634,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    641,
+    642,
+    643,
+    644,
+    645,
+    646,
+    647,
+    648,
+    649,
+    650,
+    651,
+    652,
+    653,
+    654,
+    655,
+    656,
+    657,
+    658,
+    659,
+    660,
+    681,
+    682,
+    683,
+    684,
+    685,
+    686,
+    687,
+    688,
+    689,
+    690,
+    806,
+    807,
+    808,
+    809
+  ],
+  "column_statistics": [
+    {
+      "column": 1,
+      "consensus": "M",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 2,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 3,
+      "consensus": "R",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 4,
+      "consensus": "I",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 5,
+      "consensus": "D",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 6,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 7,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 8,
+      "consensus": "Q",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 9,
+      "consensus": "K",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 10,
+      "consensus": "N",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 11,
+      "consensus": "R",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 12,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 13,
+      "consensus": "M",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 14,
+      "consensus": "F",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 15,
+      "consensus": "H",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 16,
+      "consensus": "V",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 17,
+      "consensus": "S",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 18,
+      "consensus": "P",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 19,
+      "consensus": "R",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 20,
+      "consensus": "Y",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 21,
+      "consensus": "A",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 22,
+      "consensus": "Q",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 23,
+      "consensus": "I",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 24,
+      "consensus": "P",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 25,
+      "consensus": "T",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 26,
+      "consensus": "F",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 27,
+      "consensus": "M",
+      "conservation": 0.75,
+      "gaps": 22
+    },
+    {
+      "column": 28,
+      "consensus": "P",
+      "conservation": 0.75,
+      "gaps": 22
+    },
+    {
+      "column": 29,
+      "consensus": "T",
+      "conservation": 0.7142857142857143,
+      "gaps": 23
+    },
+    {
+      "column": 30,
+      "consensus": "P",
+      "conservation": 0.8571428571428571,
+      "gaps": 23
+    },
+    {
+      "column": 31,
+      "consensus": "S",
+      "conservation": 0.25,
+      "gaps": 22
+    },
+    {
+      "column": 32,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 33,
+      "consensus": "T",
+      "conservation": 0.25,
+      "gaps": 22
+    },
+    {
+      "column": 34,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 35,
+      "consensus": "P",
+      "conservation": 0.875,
+      "gaps": 22
+    },
+    {
+      "column": 36,
+      "consensus": "Q",
+      "conservation": 0.75,
+      "gaps": 22
+    },
+    {
+      "column": 37,
+      "consensus": "P",
+      "conservation": 0.375,
+      "gaps": 22
+    },
+    {
+      "column": 38,
+      "consensus": "K",
+      "conservation": 0.625,
+      "gaps": 22
+    },
+    {
+      "column": 39,
+      "consensus": "G",
+      "conservation": 0.75,
+      "gaps": 22
+    },
+    {
+      "column": 40,
+      "consensus": "F",
+      "conservation": 0.75,
+      "gaps": 22
+    },
+    {
+      "column": 41,
+      "consensus": "R",
+      "conservation": 0.7142857142857143,
+      "gaps": 23
+    },
+    {
+      "column": 42,
+      "consensus": "R",
+      "conservation": 0.7142857142857143,
+      "gaps": 23
+    },
+    {
+      "column": 43,
+      "consensus": "A",
+      "conservation": 0.7142857142857143,
+      "gaps": 23
+    },
+    {
+      "column": 44,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 23
+    },
+    {
+      "column": 45,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 46,
+      "consensus": "K",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 47,
+      "consensus": "Q",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 48,
+      "consensus": "T",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 49,
+      "consensus": "K",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 50,
+      "consensus": "Q",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 51,
+      "consensus": "T",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 52,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 53,
+      "consensus": "L",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 54,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 55,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 56,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 57,
+      "consensus": "R",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 58,
+      "consensus": "S",
+      "conservation": 0.8571428571428571,
+      "gaps": 23
+    },
+    {
+      "column": 59,
+      "consensus": "E",
+      "conservation": 0.8333333333333334,
+      "gaps": 24
+    },
+    {
+      "column": 60,
+      "consensus": "L",
+      "conservation": 0.5,
+      "gaps": 24
+    },
+    {
+      "column": 61,
+      "consensus": "D",
+      "conservation": 0.8333333333333334,
+      "gaps": 24
+    },
+    {
+      "column": 62,
+      "consensus": "A",
+      "conservation": 0.6666666666666666,
+      "gaps": 24
+    },
+    {
+      "column": 63,
+      "consensus": "K",
+      "conservation": 0.45454545454545453,
+      "gaps": 19
+    },
+    {
+      "column": 64,
+      "consensus": "Q",
+      "conservation": 0.8181818181818182,
+      "gaps": 19
+    },
+    {
+      "column": 65,
+      "consensus": "A",
+      "conservation": 0.4166666666666667,
+      "gaps": 18
+    },
+    {
+      "column": 66,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 18
+    },
+    {
+      "column": 67,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 18
+    },
+    {
+      "column": 68,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 69,
+      "consensus": "M",
+      "conservation": 0.42857142857142855,
+      "gaps": 23
+    },
+    {
+      "column": 70,
+      "consensus": "V",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 71,
+      "consensus": "R",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 72,
+      "consensus": "G",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 73,
+      "consensus": "Q",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 74,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 75,
+      "consensus": "G",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 76,
+      "consensus": "I",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 77,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 27
+    },
+    {
+      "column": 78,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 79,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 80,
+      "consensus": "Q",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 81,
+      "consensus": "G",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 82,
+      "consensus": "M",
+      "conservation": 0.5714285714285714,
+      "gaps": 23
+    },
+    {
+      "column": 83,
+      "consensus": "M",
+      "conservation": 0.5714285714285714,
+      "gaps": 23
+    },
+    {
+      "column": 84,
+      "consensus": "F",
+      "conservation": 0.5714285714285714,
+      "gaps": 23
+    },
+    {
+      "column": 85,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 86,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 87,
+      "consensus": "K",
+      "conservation": 0.625,
+      "gaps": 22
+    },
+    {
+      "column": 88,
+      "consensus": "Y",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 89,
+      "consensus": "W",
+      "conservation": 0.75,
+      "gaps": 22
+    },
+    {
+      "column": 90,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 91,
+      "consensus": "R",
+      "conservation": 0.5714285714285714,
+      "gaps": 23
+    },
+    {
+      "column": 92,
+      "consensus": "R",
+      "conservation": 0.5714285714285714,
+      "gaps": 23
+    },
+    {
+      "column": 93,
+      "consensus": "G",
+      "conservation": 0.5714285714285714,
+      "gaps": 23
+    },
+    {
+      "column": 94,
+      "consensus": "R",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 95,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 96,
+      "consensus": "L",
+      "conservation": 0.375,
+      "gaps": 22
+    },
+    {
+      "column": 97,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 98,
+      "consensus": "L",
+      "conservation": 0.5,
+      "gaps": 18
+    },
+    {
+      "column": 99,
+      "consensus": "D",
+      "conservation": 0.3333333333333333,
+      "gaps": 18
+    },
+    {
+      "column": 100,
+      "consensus": "S",
+      "conservation": 0.46153846153846156,
+      "gaps": 17
+    },
+    {
+      "column": 101,
+      "consensus": "A",
+      "conservation": 0.38461538461538464,
+      "gaps": 17
+    },
+    {
+      "column": 102,
+      "consensus": "V",
+      "conservation": 0.6,
+      "gaps": 15
+    },
+    {
+      "column": 103,
+      "consensus": "P",
+      "conservation": 0.5555555555555556,
+      "gaps": 12
+    },
+    {
+      "column": 104,
+      "consensus": "E",
+      "conservation": 0.4444444444444444,
+      "gaps": 12
+    },
+    {
+      "column": 105,
+      "consensus": "E",
+      "conservation": 0.2777777777777778,
+      "gaps": 12
+    },
+    {
+      "column": 106,
+      "consensus": "R",
+      "conservation": 0.29411764705882354,
+      "gaps": 13
+    },
+    {
+      "column": 107,
+      "consensus": "Q",
+      "conservation": 0.42857142857142855,
+      "gaps": 9
+    },
+    {
+      "column": 108,
+      "consensus": "L",
+      "conservation": 0.4375,
+      "gaps": 14
+    },
+    {
+      "column": 109,
+      "consensus": "S",
+      "conservation": 0.4166666666666667,
+      "gaps": 18
+    },
+    {
+      "column": 110,
+      "consensus": "L",
+      "conservation": 0.375,
+      "gaps": 14
+    },
+    {
+      "column": 111,
+      "consensus": "G",
+      "conservation": 0.375,
+      "gaps": 14
+    },
+    {
+      "column": 112,
+      "consensus": "P",
+      "conservation": 0.2857142857142857,
+      "gaps": 9
+    },
+    {
+      "column": 113,
+      "consensus": "S",
+      "conservation": 0.2857142857142857,
+      "gaps": 9
+    },
+    {
+      "column": 114,
+      "consensus": "T",
+      "conservation": 0.3333333333333333,
+      "gaps": 9
+    },
+    {
+      "column": 115,
+      "consensus": "I",
+      "conservation": 0.2857142857142857,
+      "gaps": 9
+    },
+    {
+      "column": 116,
+      "consensus": "G",
+      "conservation": 0.42857142857142855,
+      "gaps": 9
+    },
+    {
+      "column": 117,
+      "consensus": "Q",
+      "conservation": 0.23809523809523808,
+      "gaps": 9
+    },
+    {
+      "column": 118,
+      "consensus": "E",
+      "conservation": 0.2631578947368421,
+      "gaps": 11
+    },
+    {
+      "column": 119,
+      "consensus": "T",
+      "conservation": 0.2857142857142857,
+      "gaps": 9
+    },
+    {
+      "column": 120,
+      "consensus": "S",
+      "conservation": 0.6666666666666666,
+      "gaps": 9
+    },
+    {
+      "column": 121,
+      "consensus": "Y",
+      "conservation": 0.37037037037037035,
+      "gaps": 3
+    },
+    {
+      "column": 122,
+      "consensus": "I",
+      "conservation": 0.7407407407407407,
+      "gaps": 3
+    },
+    {
+      "column": 123,
+      "consensus": "E",
+      "conservation": 0.5185185185185185,
+      "gaps": 3
+    },
+    {
+      "column": 124,
+      "consensus": "D",
+      "conservation": 0.6666666666666666,
+      "gaps": 3
+    },
+    {
+      "column": 125,
+      "consensus": "A",
+      "conservation": 0.3333333333333333,
+      "gaps": 15
+    },
+    {
+      "column": 126,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 127,
+      "consensus": "R",
+      "conservation": 0.35714285714285715,
+      "gaps": 16
+    },
+    {
+      "column": 128,
+      "consensus": "K",
+      "conservation": 0.35714285714285715,
+      "gaps": 16
+    },
+    {
+      "column": 129,
+      "consensus": "N",
+      "conservation": 0.3333333333333333,
+      "gaps": 15
+    },
+    {
+      "column": 130,
+      "consensus": "R",
+      "conservation": 0.46153846153846156,
+      "gaps": 17
+    },
+    {
+      "column": 131,
+      "consensus": "N",
+      "conservation": 0.4444444444444444,
+      "gaps": 12
+    },
+    {
+      "column": 132,
+      "consensus": "K",
+      "conservation": 0.47058823529411764,
+      "gaps": 13
+    },
+    {
+      "column": 133,
+      "consensus": "A",
+      "conservation": 0.8571428571428571,
+      "gaps": 23
+    },
+    {
+      "column": 134,
+      "consensus": "A",
+      "conservation": 0.2857142857142857,
+      "gaps": 23
+    },
+    {
+      "column": 135,
+      "consensus": "A",
+      "conservation": 0.8571428571428571,
+      "gaps": 23
+    },
+    {
+      "column": 136,
+      "consensus": "Y",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 137,
+      "consensus": "E",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 138,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 139,
+      "consensus": "A",
+      "conservation": 0.8571428571428571,
+      "gaps": 23
+    },
+    {
+      "column": 140,
+      "consensus": "A",
+      "conservation": 0.8333333333333334,
+      "gaps": 24
+    },
+    {
+      "column": 141,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 24
+    },
+    {
+      "column": 142,
+      "consensus": "A",
+      "conservation": 0.4,
+      "gaps": 25
+    },
+    {
+      "column": 143,
+      "consensus": "A",
+      "conservation": 0.6666666666666666,
+      "gaps": 24
+    },
+    {
+      "column": 144,
+      "consensus": "A",
+      "conservation": 0.2857142857142857,
+      "gaps": 23
+    },
+    {
+      "column": 145,
+      "consensus": "A",
+      "conservation": 0.42857142857142855,
+      "gaps": 23
+    },
+    {
+      "column": 146,
+      "consensus": "S",
+      "conservation": 0.42857142857142855,
+      "gaps": 23
+    },
+    {
+      "column": 147,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 24
+    },
+    {
+      "column": 148,
+      "consensus": "E",
+      "conservation": 0.8333333333333334,
+      "gaps": 24
+    },
+    {
+      "column": 149,
+      "consensus": "P",
+      "conservation": 0.5714285714285714,
+      "gaps": 23
+    },
+    {
+      "column": 150,
+      "consensus": "G",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 151,
+      "consensus": "D",
+      "conservation": 0.25,
+      "gaps": 22
+    },
+    {
+      "column": 152,
+      "consensus": "L",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 153,
+      "consensus": "L",
+      "conservation": 0.625,
+      "gaps": 22
+    },
+    {
+      "column": 154,
+      "consensus": "E",
+      "conservation": 0.6111111111111112,
+      "gaps": 12
+    },
+    {
+      "column": 155,
+      "consensus": "N",
+      "conservation": 0.4444444444444444,
+      "gaps": 12
+    },
+    {
+      "column": 156,
+      "consensus": "K",
+      "conservation": 0.20689655172413793,
+      "gaps": 1
+    },
+    {
+      "column": 157,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 158,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 159,
+      "consensus": "E",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 160,
+      "consensus": "V",
+      "conservation": 0.24,
+      "gaps": 5
+    },
+    {
+      "column": 161,
+      "consensus": "D",
+      "conservation": 0.24,
+      "gaps": 5
+    },
+    {
+      "column": 162,
+      "consensus": "I",
+      "conservation": 0.18518518518518517,
+      "gaps": 3
+    },
+    {
+      "column": 163,
+      "consensus": "E",
+      "conservation": 0.21739130434782608,
+      "gaps": 7
+    },
+    {
+      "column": 164,
+      "consensus": "E",
+      "conservation": 0.6086956521739131,
+      "gaps": 7
+    },
+    {
+      "column": 165,
+      "consensus": "D",
+      "conservation": 0.6666666666666666,
+      "gaps": 24
+    },
+    {
+      "column": 166,
+      "consensus": "G",
+      "conservation": 0.8333333333333334,
+      "gaps": 24
+    },
+    {
+      "column": 167,
+      "consensus": "N",
+      "conservation": 0.21428571428571427,
+      "gaps": 2
+    },
+    {
+      "column": 168,
+      "consensus": "G",
+      "conservation": 0.4827586206896552,
+      "gaps": 1
+    },
+    {
+      "column": 169,
+      "consensus": "R",
+      "conservation": 0.23333333333333334,
+      "gaps": 0
+    },
+    {
+      "column": 170,
+      "consensus": "T",
+      "conservation": 0.3333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 171,
+      "consensus": "S",
+      "conservation": 0.26666666666666666,
+      "gaps": 0
+    },
+    {
+      "column": 172,
+      "consensus": "L",
+      "conservation": 0.6333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 173,
+      "consensus": "I",
+      "conservation": 0.36666666666666664,
+      "gaps": 0
+    },
+    {
+      "column": 174,
+      "consensus": "F",
+      "conservation": 0.8666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 175,
+      "consensus": "S",
+      "conservation": 0.7333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 176,
+      "consensus": "L",
+      "conservation": 0.7666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 177,
+      "consensus": "K",
+      "conservation": 0.6,
+      "gaps": 0
+    },
+    {
+      "column": 178,
+      "consensus": "A",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 179,
+      "consensus": "E",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 180,
+      "consensus": "E",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 181,
+      "consensus": "T",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 182,
+      "consensus": "G",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 183,
+      "consensus": "D",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 184,
+      "consensus": "I",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 185,
+      "consensus": "N",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 186,
+      "consensus": "L",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 187,
+      "consensus": "T",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 188,
+      "consensus": "D",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 189,
+      "consensus": "W",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 190,
+      "consensus": "D",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 191,
+      "consensus": "L",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 192,
+      "consensus": "D",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 193,
+      "consensus": "I",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 194,
+      "consensus": "A",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 195,
+      "consensus": "I",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 196,
+      "consensus": "D",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 197,
+      "consensus": "D",
+      "conservation": 0.375,
+      "gaps": 22
+    },
+    {
+      "column": 198,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 22
+    },
+    {
+      "column": 199,
+      "consensus": "S",
+      "conservation": 0.38461538461538464,
+      "gaps": 17
+    },
+    {
+      "column": 200,
+      "consensus": "N",
+      "conservation": 0.36666666666666664,
+      "gaps": 0
+    },
+    {
+      "column": 201,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 2
+    },
+    {
+      "column": 202,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 2
+    },
+    {
+      "column": 203,
+      "consensus": "G",
+      "conservation": 0.7,
+      "gaps": 0
+    },
+    {
+      "column": 204,
+      "consensus": "G",
+      "conservation": 0.43333333333333335,
+      "gaps": 0
+    },
+    {
+      "column": 205,
+      "consensus": "L",
+      "conservation": 0.9333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 206,
+      "consensus": "A",
+      "conservation": 0.3,
+      "gaps": 0
+    },
+    {
+      "column": 207,
+      "consensus": "K",
+      "conservation": 0.4,
+      "gaps": 0
+    },
+    {
+      "column": 208,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 0
+    },
+    {
+      "column": 209,
+      "consensus": "N",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 210,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 211,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 212,
+      "consensus": "F",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 213,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 214,
+      "consensus": "M",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 215,
+      "consensus": "I",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 216,
+      "consensus": "H",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 217,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 218,
+      "consensus": "G",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 219,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 27
+    },
+    {
+      "column": 220,
+      "consensus": "D",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 221,
+      "consensus": "H",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 222,
+      "consensus": "S",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 223,
+      "consensus": "L",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 224,
+      "consensus": "C",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 225,
+      "consensus": "V",
+      "conservation": 0.3333333333333333,
+      "gaps": 27
+    },
+    {
+      "column": 226,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 227,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 228,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 229,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 230,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 231,
+      "consensus": "L",
+      "conservation": 0.8275862068965517,
+      "gaps": 1
+    },
+    {
+      "column": 232,
+      "consensus": "K",
+      "conservation": 0.4827586206896552,
+      "gaps": 1
+    },
+    {
+      "column": 233,
+      "consensus": "L",
+      "conservation": 0.3793103448275862,
+      "gaps": 1
+    },
+    {
+      "column": 234,
+      "consensus": "F",
+      "conservation": 0.8620689655172413,
+      "gaps": 1
+    },
+    {
+      "column": 235,
+      "consensus": "Q",
+      "conservation": 0.41379310344827586,
+      "gaps": 1
+    },
+    {
+      "column": 236,
+      "consensus": "E",
+      "conservation": 0.5172413793103449,
+      "gaps": 1
+    },
+    {
+      "column": 237,
+      "consensus": "N",
+      "conservation": 0.2413793103448276,
+      "gaps": 1
+    },
+    {
+      "column": 238,
+      "consensus": "H",
+      "conservation": 0.3448275862068966,
+      "gaps": 1
+    },
+    {
+      "column": 239,
+      "consensus": "V",
+      "conservation": 0.4827586206896552,
+      "gaps": 1
+    },
+    {
+      "column": 240,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 241,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 242,
+      "consensus": "N",
+      "conservation": 0.6896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 243,
+      "consensus": "L",
+      "conservation": 0.5517241379310345,
+      "gaps": 1
+    },
+    {
+      "column": 244,
+      "consensus": "V",
+      "conservation": 0.2413793103448276,
+      "gaps": 1
+    },
+    {
+      "column": 245,
+      "consensus": "H",
+      "conservation": 0.896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 246,
+      "consensus": "I",
+      "conservation": 0.7241379310344828,
+      "gaps": 1
+    },
+    {
+      "column": 247,
+      "consensus": "E",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 248,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 249,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 250,
+      "consensus": "S",
+      "conservation": 0.7586206896551724,
+      "gaps": 1
+    },
+    {
+      "column": 251,
+      "consensus": "R",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 252,
+      "consensus": "P",
+      "conservation": 0.4482758620689655,
+      "gaps": 1
+    },
+    {
+      "column": 253,
+      "consensus": "S",
+      "conservation": 0.7586206896551724,
+      "gaps": 1
+    },
+    {
+      "column": 254,
+      "consensus": "R",
+      "conservation": 0.38461538461538464,
+      "gaps": 4
+    },
+    {
+      "column": 255,
+      "consensus": "R",
+      "conservation": 0.4482758620689655,
+      "gaps": 1
+    },
+    {
+      "column": 256,
+      "consensus": "R",
+      "conservation": 0.4827586206896552,
+      "gaps": 1
+    },
+    {
+      "column": 257,
+      "consensus": "R",
+      "conservation": 0.42857142857142855,
+      "gaps": 23
+    },
+    {
+      "column": 258,
+      "consensus": "A",
+      "conservation": 0.625,
+      "gaps": 22
+    },
+    {
+      "column": 259,
+      "consensus": "G",
+      "conservation": 0.625,
+      "gaps": 22
+    },
+    {
+      "column": 260,
+      "consensus": "S",
+      "conservation": 0.23333333333333334,
+      "gaps": 0
+    },
+    {
+      "column": 261,
+      "consensus": "S",
+      "conservation": 0.3333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 262,
+      "consensus": "E",
+      "conservation": 0.5333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 263,
+      "consensus": "Y",
+      "conservation": 0.4,
+      "gaps": 0
+    },
+    {
+      "column": 264,
+      "consensus": "E",
+      "conservation": 0.8,
+      "gaps": 0
+    },
+    {
+      "column": 265,
+      "consensus": "I",
+      "conservation": 0.3333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 266,
+      "consensus": "F",
+      "conservation": 0.8,
+      "gaps": 0
+    },
+    {
+      "column": 267,
+      "consensus": "V",
+      "conservation": 0.6666666666666666,
+      "gaps": 0
+    },
+    {
+      "column": 268,
+      "consensus": "D",
+      "conservation": 0.43333333333333335,
+      "gaps": 0
+    },
+    {
+      "column": 269,
+      "consensus": "C",
+      "conservation": 0.41379310344827586,
+      "gaps": 1
+    },
+    {
+      "column": 270,
+      "consensus": "D",
+      "conservation": 0.5185185185185185,
+      "gaps": 3
+    },
+    {
+      "column": 271,
+      "consensus": "V",
+      "conservation": 0.17857142857142858,
+      "gaps": 2
+    },
+    {
+      "column": 272,
+      "consensus": "R",
+      "conservation": 0.21428571428571427,
+      "gaps": 2
+    },
+    {
+      "column": 273,
+      "consensus": "S",
+      "conservation": 0.32142857142857145,
+      "gaps": 2
+    },
+    {
+      "column": 274,
+      "consensus": "E",
+      "conservation": 0.2857142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 275,
+      "consensus": "D",
+      "conservation": 0.36363636363636365,
+      "gaps": 19
+    },
+    {
+      "column": 276,
+      "consensus": "N",
+      "conservation": 0.6666666666666666,
+      "gaps": 27
+    },
+    {
+      "column": 277,
+      "consensus": "P",
+      "conservation": 0.3333333333333333,
+      "gaps": 18
+    },
+    {
+      "column": 278,
+      "consensus": "E",
+      "conservation": 0.3157894736842105,
+      "gaps": 11
+    },
+    {
+      "column": 279,
+      "consensus": "L",
+      "conservation": 0.6785714285714286,
+      "gaps": 2
+    },
+    {
+      "column": 280,
+      "consensus": "N",
+      "conservation": 0.35714285714285715,
+      "gaps": 2
+    },
+    {
+      "column": 281,
+      "consensus": "D",
+      "conservation": 0.21428571428571427,
+      "gaps": 2
+    },
+    {
+      "column": 282,
+      "consensus": "I",
+      "conservation": 0.35714285714285715,
+      "gaps": 2
+    },
+    {
+      "column": 283,
+      "consensus": "I",
+      "conservation": 0.5714285714285714,
+      "gaps": 2
+    },
+    {
+      "column": 284,
+      "consensus": "K",
+      "conservation": 0.21428571428571427,
+      "gaps": 2
+    },
+    {
+      "column": 285,
+      "consensus": "L",
+      "conservation": 0.35714285714285715,
+      "gaps": 2
+    },
+    {
+      "column": 286,
+      "consensus": "L",
+      "conservation": 0.6428571428571429,
+      "gaps": 2
+    },
+    {
+      "column": 287,
+      "consensus": "K",
+      "conservation": 0.48148148148148145,
+      "gaps": 3
+    },
+    {
+      "column": 288,
+      "consensus": "S",
+      "conservation": 0.21428571428571427,
+      "gaps": 2
+    },
+    {
+      "column": 289,
+      "consensus": "Q",
+      "conservation": 0.25,
+      "gaps": 2
+    },
+    {
+      "column": 290,
+      "consensus": "T",
+      "conservation": 0.2857142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 291,
+      "consensus": "T",
+      "conservation": 0.3888888888888889,
+      "gaps": 12
+    },
+    {
+      "column": 292,
+      "consensus": "I",
+      "conservation": 0.42857142857142855,
+      "gaps": 16
+    },
+    {
+      "column": 293,
+      "consensus": "L",
+      "conservation": 0.2777777777777778,
+      "gaps": 12
+    },
+    {
+      "column": 294,
+      "consensus": "S",
+      "conservation": 0.5833333333333334,
+      "gaps": 18
+    },
+    {
+      "column": 295,
+      "consensus": "V",
+      "conservation": 0.4166666666666667,
+      "gaps": 18
+    },
+    {
+      "column": 296,
+      "consensus": "N",
+      "conservation": 0.38095238095238093,
+      "gaps": 9
+    },
+    {
+      "column": 297,
+      "consensus": "P",
+      "conservation": 0.3333333333333333,
+      "gaps": 9
+    },
+    {
+      "column": 298,
+      "consensus": "P",
+      "conservation": 0.391304347826087,
+      "gaps": 7
+    },
+    {
+      "column": 299,
+      "consensus": "D",
+      "conservation": 0.30434782608695654,
+      "gaps": 7
+    },
+    {
+      "column": 300,
+      "consensus": "N",
+      "conservation": 0.2608695652173913,
+      "gaps": 7
+    },
+    {
+      "column": 301,
+      "consensus": "L",
+      "conservation": 0.3333333333333333,
+      "gaps": 9
+    },
+    {
+      "column": 302,
+      "consensus": "S",
+      "conservation": 0.3333333333333333,
+      "gaps": 9
+    },
+    {
+      "column": 303,
+      "consensus": "R",
+      "conservation": 0.2692307692307692,
+      "gaps": 4
+    },
+    {
+      "column": 304,
+      "consensus": "K",
+      "conservation": 0.3181818181818182,
+      "gaps": 8
+    },
+    {
+      "column": 305,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 6
+    },
+    {
+      "column": 306,
+      "consensus": "D",
+      "conservation": 0.3448275862068966,
+      "gaps": 1
+    },
+    {
+      "column": 307,
+      "consensus": "K",
+      "conservation": 0.2,
+      "gaps": 10
+    },
+    {
+      "column": 308,
+      "consensus": "N",
+      "conservation": 0.26666666666666666,
+      "gaps": 0
+    },
+    {
+      "column": 309,
+      "consensus": "K",
+      "conservation": 0.2,
+      "gaps": 0
+    },
+    {
+      "column": 310,
+      "consensus": "E",
+      "conservation": 0.36666666666666664,
+      "gaps": 0
+    },
+    {
+      "column": 311,
+      "consensus": "T",
+      "conservation": 0.26666666666666666,
+      "gaps": 0
+    },
+    {
+      "column": 312,
+      "consensus": "V",
+      "conservation": 0.7666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 313,
+      "consensus": "P",
+      "conservation": 0.8333333333333334,
+      "gaps": 0
+    },
+    {
+      "column": 314,
+      "consensus": "W",
+      "conservation": 0.9666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 315,
+      "consensus": "F",
+      "conservation": 0.8666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 316,
+      "consensus": "P",
+      "conservation": 0.9333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 317,
+      "consensus": "R",
+      "conservation": 0.6,
+      "gaps": 0
+    },
+    {
+      "column": 318,
+      "consensus": "K",
+      "conservation": 0.6333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 319,
+      "consensus": "I",
+      "conservation": 0.7,
+      "gaps": 0
+    },
+    {
+      "column": 320,
+      "consensus": "S",
+      "conservation": 0.6333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 321,
+      "consensus": "E",
+      "conservation": 0.4827586206896552,
+      "gaps": 1
+    },
+    {
+      "column": 322,
+      "consensus": "L",
+      "conservation": 0.8620689655172413,
+      "gaps": 1
+    },
+    {
+      "column": 323,
+      "consensus": "D",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 324,
+      "consensus": "R",
+      "conservation": 0.3103448275862069,
+      "gaps": 1
+    },
+    {
+      "column": 325,
+      "consensus": "C",
+      "conservation": 0.5517241379310345,
+      "gaps": 1
+    },
+    {
+      "column": 326,
+      "consensus": "A",
+      "conservation": 0.5862068965517241,
+      "gaps": 1
+    },
+    {
+      "column": 327,
+      "consensus": "N",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 328,
+      "consensus": "N",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 329,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 330,
+      "consensus": "P",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 331,
+      "consensus": "I",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 332,
+      "consensus": "N",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 333,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 334,
+      "consensus": "N",
+      "conservation": 0.5666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 335,
+      "consensus": "R",
+      "conservation": 0.4,
+      "gaps": 0
+    },
+    {
+      "column": 336,
+      "consensus": "V",
+      "conservation": 0.6,
+      "gaps": 0
+    },
+    {
+      "column": 337,
+      "consensus": "L",
+      "conservation": 0.7,
+      "gaps": 0
+    },
+    {
+      "column": 338,
+      "consensus": "S",
+      "conservation": 0.3,
+      "gaps": 0
+    },
+    {
+      "column": 339,
+      "consensus": "Y",
+      "conservation": 0.6666666666666666,
+      "gaps": 0
+    },
+    {
+      "column": 340,
+      "consensus": "G",
+      "conservation": 0.7,
+      "gaps": 0
+    },
+    {
+      "column": 341,
+      "consensus": "S",
+      "conservation": 0.43333333333333335,
+      "gaps": 0
+    },
+    {
+      "column": 342,
+      "consensus": "E",
+      "conservation": 0.6,
+      "gaps": 0
+    },
+    {
+      "column": 343,
+      "consensus": "L",
+      "conservation": 0.9666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 344,
+      "consensus": "D",
+      "conservation": 0.8333333333333334,
+      "gaps": 0
+    },
+    {
+      "column": 345,
+      "consensus": "A",
+      "conservation": 0.6333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 346,
+      "consensus": "D",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 347,
+      "consensus": "H",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 348,
+      "consensus": "P",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 349,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 0
+    },
+    {
+      "column": 350,
+      "consensus": "F",
+      "conservation": 0.8620689655172413,
+      "gaps": 1
+    },
+    {
+      "column": 351,
+      "consensus": "K",
+      "conservation": 0.5333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 352,
+      "consensus": "D",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 353,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 354,
+      "consensus": "T",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 355,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 356,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 357,
+      "consensus": "M",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 358,
+      "consensus": "R",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 359,
+      "consensus": "D",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 360,
+      "consensus": "P",
+      "conservation": 0.3333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 361,
+      "consensus": "V",
+      "conservation": 0.7,
+      "gaps": 0
+    },
+    {
+      "column": 362,
+      "consensus": "Y",
+      "conservation": 1.0,
+      "gaps": 0
+    },
+    {
+      "column": 363,
+      "consensus": "R",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 364,
+      "consensus": "Q",
+      "conservation": 0.36666666666666664,
+      "gaps": 0
+    },
+    {
+      "column": 365,
+      "consensus": "R",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 366,
+      "consensus": "R",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 367,
+      "consensus": "K",
+      "conservation": 0.8666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 368,
+      "consensus": "Y",
+      "conservation": 0.43333333333333335,
+      "gaps": 0
+    },
+    {
+      "column": 369,
+      "consensus": "M",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 370,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 371,
+      "consensus": "Q",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 372,
+      "consensus": "L",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 373,
+      "consensus": "F",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 374,
+      "consensus": "H",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 375,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 376,
+      "consensus": "Q",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 377,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 378,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 379,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 380,
+      "consensus": "Q",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 381,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 382,
+      "consensus": "T",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 383,
+      "consensus": "I",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 384,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 385,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 386,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 387,
+      "consensus": "I",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 388,
+      "consensus": "Q",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 389,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 390,
+      "consensus": "I",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 391,
+      "consensus": "G",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 392,
+      "consensus": "M",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 393,
+      "consensus": "N",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 394,
+      "consensus": "D",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 395,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 396,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 397,
+      "consensus": "I",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 398,
+      "consensus": "F",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 399,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 400,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 401,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 402,
+      "consensus": "N",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 403,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 404,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 405,
+      "consensus": "G",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 406,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 407,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 408,
+      "consensus": "T",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 409,
+      "consensus": "G",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 410,
+      "consensus": "T",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 411,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 412,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 413,
+      "consensus": "P",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 414,
+      "consensus": "Q",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 415,
+      "consensus": "P",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 416,
+      "consensus": "R",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 417,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 418,
+      "consensus": "T",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 419,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 420,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 421,
+      "consensus": "F",
+      "conservation": 0.6333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 422,
+      "consensus": "A",
+      "conservation": 0.8,
+      "gaps": 0
+    },
+    {
+      "column": 423,
+      "consensus": "D",
+      "conservation": 0.5666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 424,
+      "consensus": "I",
+      "conservation": 0.5666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 425,
+      "consensus": "A",
+      "conservation": 0.9333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 426,
+      "consensus": "M",
+      "conservation": 0.3333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 427,
+      "consensus": "N",
+      "conservation": 0.4666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 428,
+      "consensus": "Y",
+      "conservation": 0.8333333333333334,
+      "gaps": 0
+    },
+    {
+      "column": 429,
+      "consensus": "K",
+      "conservation": 0.7333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 430,
+      "consensus": "H",
+      "conservation": 0.6333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 431,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 0
+    },
+    {
+      "column": 432,
+      "consensus": "D",
+      "conservation": 0.5,
+      "gaps": 0
+    },
+    {
+      "column": 433,
+      "consensus": "P",
+      "conservation": 0.8,
+      "gaps": 0
+    },
+    {
+      "column": 434,
+      "consensus": "I",
+      "conservation": 0.8275862068965517,
+      "gaps": 1
+    },
+    {
+      "column": 435,
+      "consensus": "P",
+      "conservation": 0.9666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 436,
+      "consensus": "R",
+      "conservation": 0.4,
+      "gaps": 0
+    },
+    {
+      "column": 437,
+      "consensus": "V",
+      "conservation": 0.6,
+      "gaps": 0
+    },
+    {
+      "column": 438,
+      "consensus": "E",
+      "conservation": 0.6333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 439,
+      "consensus": "Y",
+      "conservation": 0.7,
+      "gaps": 0
+    },
+    {
+      "column": 440,
+      "consensus": "T",
+      "conservation": 0.8333333333333334,
+      "gaps": 0
+    },
+    {
+      "column": 441,
+      "consensus": "E",
+      "conservation": 0.5517241379310345,
+      "gaps": 1
+    },
+    {
+      "column": 442,
+      "consensus": "E",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 443,
+      "consensus": "E",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 444,
+      "consensus": "I",
+      "conservation": 0.5862068965517241,
+      "gaps": 1
+    },
+    {
+      "column": 445,
+      "consensus": "K",
+      "conservation": 0.5517241379310345,
+      "gaps": 1
+    },
+    {
+      "column": 446,
+      "consensus": "T",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 447,
+      "consensus": "W",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 448,
+      "consensus": "G",
+      "conservation": 0.6333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 449,
+      "consensus": "T",
+      "conservation": 0.41379310344827586,
+      "gaps": 1
+    },
+    {
+      "column": 450,
+      "consensus": "V",
+      "conservation": 0.7241379310344828,
+      "gaps": 1
+    },
+    {
+      "column": 451,
+      "consensus": "F",
+      "conservation": 0.5862068965517241,
+      "gaps": 1
+    },
+    {
+      "column": 452,
+      "consensus": "R",
+      "conservation": 0.5172413793103449,
+      "gaps": 1
+    },
+    {
+      "column": 453,
+      "consensus": "E",
+      "conservation": 0.41379310344827586,
+      "gaps": 1
+    },
+    {
+      "column": 454,
+      "consensus": "L",
+      "conservation": 0.896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 455,
+      "consensus": "K",
+      "conservation": 0.3448275862068966,
+      "gaps": 1
+    },
+    {
+      "column": 456,
+      "consensus": "K",
+      "conservation": 0.4482758620689655,
+      "gaps": 1
+    },
+    {
+      "column": 457,
+      "consensus": "L",
+      "conservation": 0.8620689655172413,
+      "gaps": 1
+    },
+    {
+      "column": 458,
+      "consensus": "Y",
+      "conservation": 0.896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 459,
+      "consensus": "P",
+      "conservation": 0.5862068965517241,
+      "gaps": 1
+    },
+    {
+      "column": 460,
+      "consensus": "T",
+      "conservation": 0.8275862068965517,
+      "gaps": 1
+    },
+    {
+      "column": 461,
+      "consensus": "H",
+      "conservation": 0.7931034482758621,
+      "gaps": 1
+    },
+    {
+      "column": 462,
+      "consensus": "A",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 463,
+      "consensus": "C",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 464,
+      "consensus": "R",
+      "conservation": 0.5862068965517241,
+      "gaps": 1
+    },
+    {
+      "column": 465,
+      "consensus": "E",
+      "conservation": 0.8928571428571429,
+      "gaps": 2
+    },
+    {
+      "column": 466,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 467,
+      "consensus": "Y",
+      "conservation": 0.5357142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 468,
+      "consensus": "L",
+      "conservation": 0.5714285714285714,
+      "gaps": 2
+    },
+    {
+      "column": 469,
+      "consensus": "H",
+      "conservation": 0.25,
+      "gaps": 2
+    },
+    {
+      "column": 470,
+      "consensus": "N",
+      "conservation": 0.35714285714285715,
+      "gaps": 2
+    },
+    {
+      "column": 471,
+      "consensus": "F",
+      "conservation": 0.7857142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 472,
+      "consensus": "P",
+      "conservation": 0.75,
+      "gaps": 2
+    },
+    {
+      "column": 473,
+      "consensus": "L",
+      "conservation": 0.9285714285714286,
+      "gaps": 2
+    },
+    {
+      "column": 474,
+      "consensus": "L",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 475,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 476,
+      "consensus": "R",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 477,
+      "consensus": "N",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 478,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 479,
+      "consensus": "K",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 480,
+      "consensus": "Q",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 481,
+      "consensus": "K",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 482,
+      "consensus": "P",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 483,
+      "consensus": "H",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 484,
+      "consensus": "Q",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 485,
+      "consensus": "E",
+      "conservation": 0.3793103448275862,
+      "gaps": 1
+    },
+    {
+      "column": 486,
+      "consensus": "K",
+      "conservation": 0.5172413793103449,
+      "gaps": 1
+    },
+    {
+      "column": 487,
+      "consensus": "Y",
+      "conservation": 0.5517241379310345,
+      "gaps": 1
+    },
+    {
+      "column": 488,
+      "consensus": "C",
+      "conservation": 0.8275862068965517,
+      "gaps": 1
+    },
+    {
+      "column": 489,
+      "consensus": "G",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 490,
+      "consensus": "Y",
+      "conservation": 0.5862068965517241,
+      "gaps": 1
+    },
+    {
+      "column": 491,
+      "consensus": "F",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 492,
+      "consensus": "R",
+      "conservation": 0.7241379310344828,
+      "gaps": 1
+    },
+    {
+      "column": 493,
+      "consensus": "E",
+      "conservation": 0.8275862068965517,
+      "gaps": 1
+    },
+    {
+      "column": 494,
+      "consensus": "D",
+      "conservation": 0.896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 495,
+      "consensus": "N",
+      "conservation": 0.6896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 496,
+      "consensus": "I",
+      "conservation": 0.6896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 497,
+      "consensus": "P",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 498,
+      "consensus": "Q",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 499,
+      "consensus": "L",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 500,
+      "consensus": "E",
+      "conservation": 0.7931034482758621,
+      "gaps": 1
+    },
+    {
+      "column": 501,
+      "consensus": "D",
+      "conservation": 0.8620689655172413,
+      "gaps": 1
+    },
+    {
+      "column": 502,
+      "consensus": "V",
+      "conservation": 0.7931034482758621,
+      "gaps": 1
+    },
+    {
+      "column": 503,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 1
+    },
+    {
+      "column": 504,
+      "consensus": "N",
+      "conservation": 0.35714285714285715,
+      "gaps": 2
+    },
+    {
+      "column": 505,
+      "consensus": "F",
+      "conservation": 1.0,
+      "gaps": 2
+    },
+    {
+      "column": 506,
+      "consensus": "L",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 507,
+      "consensus": "K",
+      "conservation": 0.6428571428571429,
+      "gaps": 2
+    },
+    {
+      "column": 508,
+      "consensus": "E",
+      "conservation": 0.6428571428571429,
+      "gaps": 2
+    },
+    {
+      "column": 509,
+      "consensus": "R",
+      "conservation": 0.5357142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 510,
+      "consensus": "T",
+      "conservation": 0.8214285714285714,
+      "gaps": 2
+    },
+    {
+      "column": 511,
+      "consensus": "G",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 512,
+      "consensus": "F",
+      "conservation": 0.8214285714285714,
+      "gaps": 2
+    },
+    {
+      "column": 513,
+      "consensus": "T",
+      "conservation": 0.35714285714285715,
+      "gaps": 2
+    },
+    {
+      "column": 514,
+      "consensus": "L",
+      "conservation": 0.4642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 515,
+      "consensus": "R",
+      "conservation": 1.0,
+      "gaps": 3
+    },
+    {
+      "column": 516,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 3
+    },
+    {
+      "column": 517,
+      "consensus": "V",
+      "conservation": 0.9259259259259259,
+      "gaps": 3
+    },
+    {
+      "column": 518,
+      "consensus": "A",
+      "conservation": 0.9259259259259259,
+      "gaps": 3
+    },
+    {
+      "column": 519,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 3
+    },
+    {
+      "column": 520,
+      "consensus": "L",
+      "conservation": 0.6296296296296297,
+      "gaps": 3
+    },
+    {
+      "column": 521,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 3
+    },
+    {
+      "column": 522,
+      "consensus": "S",
+      "conservation": 0.9629629629629629,
+      "gaps": 3
+    },
+    {
+      "column": 523,
+      "consensus": "P",
+      "conservation": 0.3333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 524,
+      "consensus": "R",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 525,
+      "consensus": "D",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 526,
+      "consensus": "F",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 527,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 0
+    },
+    {
+      "column": 528,
+      "consensus": "A",
+      "conservation": 0.5333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 529,
+      "consensus": "G",
+      "conservation": 0.7333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 530,
+      "consensus": "L",
+      "conservation": 0.9333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 531,
+      "consensus": "A",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 532,
+      "consensus": "F",
+      "conservation": 0.8,
+      "gaps": 0
+    },
+    {
+      "column": 533,
+      "consensus": "N",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 534,
+      "consensus": "D",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 535,
+      "consensus": "I",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 536,
+      "consensus": "K",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 537,
+      "consensus": "R",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 538,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 539,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 540,
+      "consensus": "E",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 541,
+      "consensus": "R",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 542,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 543,
+      "consensus": "I",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 544,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 545,
+      "consensus": "Q",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 546,
+      "consensus": "D",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 547,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 548,
+      "consensus": "C",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 549,
+      "consensus": "I",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 550,
+      "consensus": "R",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 551,
+      "consensus": "V",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 552,
+      "consensus": "F",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 553,
+      "consensus": "H",
+      "conservation": 0.7241379310344828,
+      "gaps": 1
+    },
+    {
+      "column": 554,
+      "consensus": "C",
+      "conservation": 0.6551724137931034,
+      "gaps": 1
+    },
+    {
+      "column": 555,
+      "consensus": "T",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 556,
+      "consensus": "Q",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 557,
+      "consensus": "Y",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 558,
+      "consensus": "I",
+      "conservation": 0.6206896551724138,
+      "gaps": 1
+    },
+    {
+      "column": 559,
+      "consensus": "R",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 560,
+      "consensus": "H",
+      "conservation": 0.9333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 561,
+      "consensus": "G",
+      "conservation": 0.3,
+      "gaps": 0
+    },
+    {
+      "column": 562,
+      "consensus": "S",
+      "conservation": 0.8666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 563,
+      "consensus": "D",
+      "conservation": 0.3333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 564,
+      "consensus": "P",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 565,
+      "consensus": "M",
+      "conservation": 0.41379310344827586,
+      "gaps": 1
+    },
+    {
+      "column": 566,
+      "consensus": "Y",
+      "conservation": 0.7241379310344828,
+      "gaps": 1
+    },
+    {
+      "column": 567,
+      "consensus": "T",
+      "conservation": 0.7586206896551724,
+      "gaps": 1
+    },
+    {
+      "column": 568,
+      "consensus": "P",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 569,
+      "consensus": "E",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 570,
+      "consensus": "P",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 571,
+      "consensus": "D",
+      "conservation": 0.896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 572,
+      "consensus": "T",
+      "conservation": 0.3448275862068966,
+      "gaps": 1
+    },
+    {
+      "column": 573,
+      "consensus": "C",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 574,
+      "consensus": "H",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 575,
+      "consensus": "E",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 576,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 1
+    },
+    {
+      "column": 577,
+      "consensus": "L",
+      "conservation": 0.8275862068965517,
+      "gaps": 1
+    },
+    {
+      "column": 578,
+      "consensus": "K",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 579,
+      "consensus": "G",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 580,
+      "consensus": "Q",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 581,
+      "consensus": "L",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 582,
+      "consensus": "Y",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 583,
+      "consensus": "I",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 584,
+      "consensus": "D",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 585,
+      "consensus": "T",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 586,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 587,
+      "consensus": "G",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 588,
+      "consensus": "H",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 589,
+      "consensus": "V",
+      "conservation": 0.9285714285714286,
+      "gaps": 2
+    },
+    {
+      "column": 590,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 2
+    },
+    {
+      "column": 591,
+      "consensus": "L",
+      "conservation": 0.7857142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 592,
+      "consensus": "L",
+      "conservation": 0.6785714285714286,
+      "gaps": 2
+    },
+    {
+      "column": 593,
+      "consensus": "A",
+      "conservation": 0.8571428571428571,
+      "gaps": 2
+    },
+    {
+      "column": 594,
+      "consensus": "D",
+      "conservation": 0.75,
+      "gaps": 2
+    },
+    {
+      "column": 595,
+      "consensus": "P",
+      "conservation": 0.5714285714285714,
+      "gaps": 2
+    },
+    {
+      "column": 596,
+      "consensus": "K",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 597,
+      "consensus": "E",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 598,
+      "consensus": "E",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 599,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 600,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 601,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 602,
+      "consensus": "I",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 603,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 604,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 605,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 606,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 607,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 608,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 609,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 610,
+      "consensus": "T",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 611,
+      "consensus": "S",
+      "conservation": 0.3793103448275862,
+      "gaps": 1
+    },
+    {
+      "column": 612,
+      "consensus": "F",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 613,
+      "consensus": "A",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 614,
+      "consensus": "Q",
+      "conservation": 0.8620689655172413,
+      "gaps": 1
+    },
+    {
+      "column": 615,
+      "consensus": "F",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 616,
+      "consensus": "S",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 617,
+      "consensus": "Q",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 618,
+      "consensus": "E",
+      "conservation": 0.7931034482758621,
+      "gaps": 1
+    },
+    {
+      "column": 619,
+      "consensus": "I",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 620,
+      "consensus": "G",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 621,
+      "consensus": "L",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 622,
+      "consensus": "A",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 623,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 1
+    },
+    {
+      "column": 624,
+      "consensus": "L",
+      "conservation": 0.8620689655172413,
+      "gaps": 1
+    },
+    {
+      "column": 625,
+      "consensus": "G",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 626,
+      "consensus": "A",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 627,
+      "consensus": "S",
+      "conservation": 0.6206896551724138,
+      "gaps": 1
+    },
+    {
+      "column": 628,
+      "consensus": "D",
+      "conservation": 0.7333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 629,
+      "consensus": "E",
+      "conservation": 0.7586206896551724,
+      "gaps": 1
+    },
+    {
+      "column": 630,
+      "consensus": "Y",
+      "conservation": 0.2413793103448276,
+      "gaps": 1
+    },
+    {
+      "column": 631,
+      "consensus": "I",
+      "conservation": 0.6206896551724138,
+      "gaps": 1
+    },
+    {
+      "column": 632,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 633,
+      "consensus": "P",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 634,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 635,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 636,
+      "consensus": "E",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 637,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 638,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 639,
+      "consensus": "T",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 640,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 641,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 642,
+      "consensus": "T",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 643,
+      "consensus": "R",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 644,
+      "consensus": "I",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 645,
+      "consensus": "F",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 646,
+      "consensus": "N",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 647,
+      "consensus": "K",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 648,
+      "consensus": "I",
+      "conservation": 1.0,
+      "gaps": 28
+    },
+    {
+      "column": 649,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 650,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 651,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 652,
+      "consensus": "T",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 653,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 654,
+      "consensus": "V",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 655,
+      "consensus": "A",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 656,
+      "consensus": "T",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 657,
+      "consensus": "P",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 658,
+      "consensus": "S",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 659,
+      "consensus": "T",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 660,
+      "consensus": "N",
+      "conservation": 0.5,
+      "gaps": 28
+    },
+    {
+      "column": 661,
+      "consensus": "E",
+      "conservation": 0.5172413793103449,
+      "gaps": 1
+    },
+    {
+      "column": 662,
+      "consensus": "K",
+      "conservation": 0.8620689655172413,
+      "gaps": 1
+    },
+    {
+      "column": 663,
+      "consensus": "L",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 664,
+      "consensus": "A",
+      "conservation": 0.5517241379310345,
+      "gaps": 1
+    },
+    {
+      "column": 665,
+      "consensus": "T",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 666,
+      "consensus": "C",
+      "conservation": 0.41379310344827586,
+      "gaps": 1
+    },
+    {
+      "column": 667,
+      "consensus": "Y",
+      "conservation": 0.8275862068965517,
+      "gaps": 1
+    },
+    {
+      "column": 668,
+      "consensus": "W",
+      "conservation": 0.6071428571428571,
+      "gaps": 2
+    },
+    {
+      "column": 669,
+      "consensus": "F",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 670,
+      "consensus": "T",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 671,
+      "consensus": "V",
+      "conservation": 0.7586206896551724,
+      "gaps": 1
+    },
+    {
+      "column": 672,
+      "consensus": "E",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 673,
+      "consensus": "F",
+      "conservation": 0.8275862068965517,
+      "gaps": 1
+    },
+    {
+      "column": 674,
+      "consensus": "G",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 675,
+      "consensus": "L",
+      "conservation": 0.8275862068965517,
+      "gaps": 1
+    },
+    {
+      "column": 676,
+      "consensus": "C",
+      "conservation": 1.0,
+      "gaps": 1
+    },
+    {
+      "column": 677,
+      "consensus": "K",
+      "conservation": 0.7931034482758621,
+      "gaps": 1
+    },
+    {
+      "column": 678,
+      "consensus": "Q",
+      "conservation": 0.7586206896551724,
+      "gaps": 1
+    },
+    {
+      "column": 679,
+      "consensus": "E",
+      "conservation": 0.32142857142857145,
+      "gaps": 2
+    },
+    {
+      "column": 680,
+      "consensus": "G",
+      "conservation": 0.75,
+      "gaps": 2
+    },
+    {
+      "column": 681,
+      "consensus": "D",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 682,
+      "consensus": "I",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 683,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 684,
+      "consensus": "I",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 685,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 686,
+      "consensus": "V",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 687,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 688,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 689,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 690,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 29
+    },
+    {
+      "column": 691,
+      "consensus": "Q",
+      "conservation": 0.39285714285714285,
+      "gaps": 2
+    },
+    {
+      "column": 692,
+      "consensus": "L",
+      "conservation": 0.5714285714285714,
+      "gaps": 2
+    },
+    {
+      "column": 693,
+      "consensus": "K",
+      "conservation": 0.5357142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 694,
+      "consensus": "A",
+      "conservation": 0.7241379310344828,
+      "gaps": 1
+    },
+    {
+      "column": 695,
+      "consensus": "Y",
+      "conservation": 0.7666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 696,
+      "consensus": "G",
+      "conservation": 1.0,
+      "gaps": 0
+    },
+    {
+      "column": 697,
+      "consensus": "A",
+      "conservation": 0.9666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 698,
+      "consensus": "G",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 699,
+      "consensus": "L",
+      "conservation": 0.8666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 700,
+      "consensus": "L",
+      "conservation": 0.9333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 701,
+      "consensus": "S",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 702,
+      "consensus": "S",
+      "conservation": 0.9333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 703,
+      "consensus": "Y",
+      "conservation": 0.3333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 704,
+      "consensus": "G",
+      "conservation": 0.7,
+      "gaps": 0
+    },
+    {
+      "column": 705,
+      "consensus": "E",
+      "conservation": 0.9,
+      "gaps": 0
+    },
+    {
+      "column": 706,
+      "consensus": "L",
+      "conservation": 0.8666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 707,
+      "consensus": "K",
+      "conservation": 0.26666666666666666,
+      "gaps": 0
+    },
+    {
+      "column": 708,
+      "consensus": "H",
+      "conservation": 0.6333333333333333,
+      "gaps": 0
+    },
+    {
+      "column": 709,
+      "consensus": "A",
+      "conservation": 0.36666666666666664,
+      "gaps": 0
+    },
+    {
+      "column": 710,
+      "consensus": "L",
+      "conservation": 0.896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 711,
+      "consensus": "S",
+      "conservation": 0.7586206896551724,
+      "gaps": 1
+    },
+    {
+      "column": 712,
+      "consensus": "D",
+      "conservation": 0.5172413793103449,
+      "gaps": 1
+    },
+    {
+      "column": 713,
+      "consensus": "K",
+      "conservation": 0.5862068965517241,
+      "gaps": 1
+    },
+    {
+      "column": 714,
+      "consensus": "P",
+      "conservation": 0.4827586206896552,
+      "gaps": 1
+    },
+    {
+      "column": 715,
+      "consensus": "K",
+      "conservation": 0.43333333333333335,
+      "gaps": 0
+    },
+    {
+      "column": 716,
+      "consensus": "V",
+      "conservation": 0.4666666666666667,
+      "gaps": 0
+    },
+    {
+      "column": 717,
+      "consensus": "K",
+      "conservation": 0.4482758620689655,
+      "gaps": 1
+    },
+    {
+      "column": 718,
+      "consensus": "P",
+      "conservation": 0.41379310344827586,
+      "gaps": 1
+    },
+    {
+      "column": 719,
+      "consensus": "F",
+      "conservation": 0.7931034482758621,
+      "gaps": 1
+    },
+    {
+      "column": 720,
+      "consensus": "D",
+      "conservation": 0.5862068965517241,
+      "gaps": 1
+    },
+    {
+      "column": 721,
+      "consensus": "P",
+      "conservation": 0.7931034482758621,
+      "gaps": 1
+    },
+    {
+      "column": 722,
+      "consensus": "K",
+      "conservation": 0.35714285714285715,
+      "gaps": 2
+    },
+    {
+      "column": 723,
+      "consensus": "V",
+      "conservation": 0.2857142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 724,
+      "consensus": "T",
+      "conservation": 0.5555555555555556,
+      "gaps": 3
+    },
+    {
+      "column": 725,
+      "consensus": "C",
+      "conservation": 0.48148148148148145,
+      "gaps": 3
+    },
+    {
+      "column": 726,
+      "consensus": "V",
+      "conservation": 0.42857142857142855,
+      "gaps": 2
+    },
+    {
+      "column": 727,
+      "consensus": "Q",
+      "conservation": 0.6896551724137931,
+      "gaps": 1
+    },
+    {
+      "column": 728,
+      "consensus": "E",
+      "conservation": 0.5172413793103449,
+      "gaps": 1
+    },
+    {
+      "column": 729,
+      "consensus": "Y",
+      "conservation": 0.5862068965517241,
+      "gaps": 1
+    },
+    {
+      "column": 730,
+      "consensus": "L",
+      "conservation": 0.3448275862068966,
+      "gaps": 1
+    },
+    {
+      "column": 731,
+      "consensus": "I",
+      "conservation": 0.6206896551724138,
+      "gaps": 1
+    },
+    {
+      "column": 732,
+      "consensus": "T",
+      "conservation": 0.7586206896551724,
+      "gaps": 1
+    },
+    {
+      "column": 733,
+      "consensus": "T",
+      "conservation": 0.4827586206896552,
+      "gaps": 1
+    },
+    {
+      "column": 734,
+      "consensus": "F",
+      "conservation": 0.6551724137931034,
+      "gaps": 1
+    },
+    {
+      "column": 735,
+      "consensus": "Q",
+      "conservation": 0.9310344827586207,
+      "gaps": 1
+    },
+    {
+      "column": 736,
+      "consensus": "P",
+      "conservation": 0.5172413793103449,
+      "gaps": 1
+    },
+    {
+      "column": 737,
+      "consensus": "V",
+      "conservation": 0.41379310344827586,
+      "gaps": 1
+    },
+    {
+      "column": 738,
+      "consensus": "Y",
+      "conservation": 0.9655172413793104,
+      "gaps": 1
+    },
+    {
+      "column": 739,
+      "consensus": "F",
+      "conservation": 0.6206896551724138,
+      "gaps": 1
+    },
+    {
+      "column": 740,
+      "consensus": "V",
+      "conservation": 0.8620689655172413,
+      "gaps": 1
+    },
+    {
+      "column": 741,
+      "consensus": "S",
+      "conservation": 0.5357142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 742,
+      "consensus": "E",
+      "conservation": 0.8571428571428571,
+      "gaps": 2
+    },
+    {
+      "column": 743,
+      "consensus": "S",
+      "conservation": 1.0,
+      "gaps": 2
+    },
+    {
+      "column": 744,
+      "consensus": "F",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 745,
+      "consensus": "E",
+      "conservation": 0.5,
+      "gaps": 2
+    },
+    {
+      "column": 746,
+      "consensus": "D",
+      "conservation": 0.5357142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 747,
+      "consensus": "A",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 748,
+      "consensus": "K",
+      "conservation": 0.9642857142857143,
+      "gaps": 2
+    },
+    {
+      "column": 749,
+      "consensus": "E",
+      "conservation": 0.6785714285714286,
+      "gaps": 2
+    },
+    {
+      "column": 750,
+      "consensus": "K",
+      "conservation": 0.8928571428571429,
+      "gaps": 2
+    },
+    {
+      "column": 751,
+      "consensus": "M",
+      "conservation": 0.42857142857142855,
+      "gaps": 2
+    },
+    {
+      "column": 752,
+      "consensus": "R",
+      "conservation": 0.7857142857142857,
+      "gaps": 2
+    },
+    {
+      "column": 753,
+      "consensus": "E",
+      "conservation": 0.21428571428571427,
+      "gaps": 2
+    },
+    {
+      "column": 754,
+      "consensus": "F",
+      "conservation": 0.6785714285714286,
+      "gaps": 2
+    },
+    {
+      "column": 755,
+      "consensus": "A",
+      "conservation": 0.8571428571428571,
+      "gaps": 2
+    },
+    {
+      "column": 756,
+      "consensus": "K",
+      "conservation": 0.37037037037037035,
+      "gaps": 3
+    },
+    {
+      "column": 757,
+      "consensus": "T",
+      "conservation": 0.48148148148148145,
+      "gaps": 3
+    },
+    {
+      "column": 758,
+      "consensus": "I",
+      "conservation": 0.7777777777777778,
+      "gaps": 3
+    },
+    {
+      "column": 759,
+      "consensus": "K",
+      "conservation": 0.2962962962962963,
+      "gaps": 3
+    },
+    {
+      "column": 760,
+      "consensus": "R",
+      "conservation": 0.9259259259259259,
+      "gaps": 3
+    },
+    {
+      "column": 761,
+      "consensus": "P",
+      "conservation": 1.0,
+      "gaps": 3
+    },
+    {
+      "column": 762,
+      "consensus": "F",
+      "conservation": 1.0,
+      "gaps": 3
+    },
+    {
+      "column": 763,
+      "consensus": "S",
+      "conservation": 0.5555555555555556,
+      "gaps": 3
+    },
+    {
+      "column": 764,
+      "consensus": "V",
+      "conservation": 0.8148148148148148,
+      "gaps": 3
+    },
+    {
+      "column": 765,
+      "consensus": "R",
+      "conservation": 0.4074074074074074,
+      "gaps": 3
+    },
+    {
+      "column": 766,
+      "consensus": "Y",
+      "conservation": 0.6296296296296297,
+      "gaps": 3
+    },
+    {
+      "column": 767,
+      "consensus": "N",
+      "conservation": 0.6666666666666666,
+      "gaps": 3
+    },
+    {
+      "column": 768,
+      "consensus": "P",
+      "conservation": 0.8148148148148148,
+      "gaps": 3
+    },
+    {
+      "column": 769,
+      "consensus": "Y",
+      "conservation": 0.9629629629629629,
+      "gaps": 3
+    },
+    {
+      "column": 770,
+      "consensus": "T",
+      "conservation": 1.0,
+      "gaps": 3
+    },
+    {
+      "column": 771,
+      "consensus": "Q",
+      "conservation": 0.7037037037037037,
+      "gaps": 3
+    },
+    {
+      "column": 772,
+      "consensus": "S",
+      "conservation": 0.5555555555555556,
+      "gaps": 3
+    },
+    {
+      "column": 773,
+      "consensus": "I",
+      "conservation": 0.6296296296296297,
+      "gaps": 3
+    },
+    {
+      "column": 774,
+      "consensus": "E",
+      "conservation": 0.5925925925925926,
+      "gaps": 3
+    },
+    {
+      "column": 775,
+      "consensus": "V",
+      "conservation": 0.5925925925925926,
+      "gaps": 3
+    },
+    {
+      "column": 776,
+      "consensus": "L",
+      "conservation": 1.0,
+      "gaps": 3
+    },
+    {
+      "column": 777,
+      "consensus": "D",
+      "conservation": 0.6296296296296297,
+      "gaps": 3
+    },
+    {
+      "column": 778,
+      "consensus": "D",
+      "conservation": 0.37037037037037035,
+      "gaps": 3
+    },
+    {
+      "column": 779,
+      "consensus": "T",
+      "conservation": 0.4074074074074074,
+      "gaps": 3
+    },
+    {
+      "column": 780,
+      "consensus": "K",
+      "conservation": 0.2222222222222222,
+      "gaps": 3
+    },
+    {
+      "column": 781,
+      "consensus": "S",
+      "conservation": 0.37037037037037035,
+      "gaps": 3
+    },
+    {
+      "column": 782,
+      "consensus": "I",
+      "conservation": 0.6296296296296297,
+      "gaps": 3
+    },
+    {
+      "column": 783,
+      "consensus": "E",
+      "conservation": 0.18518518518518517,
+      "gaps": 3
+    },
+    {
+      "column": 784,
+      "consensus": "N",
+      "conservation": 0.37037037037037035,
+      "gaps": 3
+    },
+    {
+      "column": 785,
+      "consensus": "L",
+      "conservation": 0.37037037037037035,
+      "gaps": 3
+    },
+    {
+      "column": 786,
+      "consensus": "M",
+      "conservation": 0.2962962962962963,
+      "gaps": 3
+    },
+    {
+      "column": 787,
+      "consensus": "D",
+      "conservation": 0.2962962962962963,
+      "gaps": 3
+    },
+    {
+      "column": 788,
+      "consensus": "D",
+      "conservation": 0.2962962962962963,
+      "gaps": 3
+    },
+    {
+      "column": 789,
+      "consensus": "I",
+      "conservation": 0.4074074074074074,
+      "gaps": 3
+    },
+    {
+      "column": 790,
+      "consensus": "R",
+      "conservation": 0.48148148148148145,
+      "gaps": 3
+    },
+    {
+      "column": 791,
+      "consensus": "S",
+      "conservation": 0.48148148148148145,
+      "gaps": 3
+    },
+    {
+      "column": 792,
+      "consensus": "E",
+      "conservation": 0.5185185185185185,
+      "gaps": 3
+    },
+    {
+      "column": 793,
+      "consensus": "L",
+      "conservation": 0.5185185185185185,
+      "gaps": 3
+    },
+    {
+      "column": 794,
+      "consensus": "D",
+      "conservation": 0.25925925925925924,
+      "gaps": 3
+    },
+    {
+      "column": 795,
+      "consensus": "I",
+      "conservation": 0.37037037037037035,
+      "gaps": 3
+    },
+    {
+      "column": 796,
+      "consensus": "L",
+      "conservation": 0.6296296296296297,
+      "gaps": 3
+    },
+    {
+      "column": 797,
+      "consensus": "C",
+      "conservation": 0.2962962962962963,
+      "gaps": 3
+    },
+    {
+      "column": 798,
+      "consensus": "D",
+      "conservation": 0.4444444444444444,
+      "gaps": 3
+    },
+    {
+      "column": 799,
+      "consensus": "A",
+      "conservation": 1.0,
+      "gaps": 3
+    },
+    {
+      "column": 800,
+      "consensus": "L",
+      "conservation": 0.7777777777777778,
+      "gaps": 3
+    },
+    {
+      "column": 801,
+      "consensus": "S",
+      "conservation": 0.2962962962962963,
+      "gaps": 3
+    },
+    {
+      "column": 802,
+      "consensus": "K",
+      "conservation": 0.7037037037037037,
+      "gaps": 3
+    },
+    {
+      "column": 803,
+      "consensus": "I",
+      "conservation": 0.2962962962962963,
+      "gaps": 3
+    },
+    {
+      "column": 804,
+      "consensus": "S",
+      "conservation": 0.25925925925925924,
+      "gaps": 3
+    },
+    {
+      "column": 805,
+      "consensus": "R",
+      "conservation": 0.3,
+      "gaps": 10
+    },
+    {
+      "column": 806,
+      "consensus": "Y",
+      "conservation": 0.3076923076923077,
+      "gaps": 17
+    },
+    {
+      "column": 807,
+      "consensus": "L",
+      "conservation": 0.46153846153846156,
+      "gaps": 17
+    },
+    {
+      "column": 808,
+      "consensus": "S",
+      "conservation": 0.4166666666666667,
+      "gaps": 18
+    },
+    {
+      "column": 809,
+      "consensus": "I",
+      "conservation": 0.4166666666666667,
+      "gaps": 18
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+================================================================================
+AROMATIC AMINO ACID HYDROXYLASE CONSERVATION ANALYSIS
+Validation Report
+================================================================================
+
+Analysis Date: 2026-03-29
+Sequences Analyzed: 30
+Alignment Length: 809 columns
+
+GROUND TRUTH VALIDATION
+--------------------------------------------------------------------------------
+
+Expected Invariant Residues: 11
+Fully Validated: 1
+Partially Validated: 6
+Failed: 4
+Missing: 0
+
+DETAILED RESULTS
+--------------------------------------------------------------------------------
+
+S-349      [PARTIAL ]
+  Expected: Ser at position 349
+  Observed: S (90.0% conserved)
+  Alignment column: 700
+  Function: Invariant
+
+P-281      [PARTIAL ]
+  Expected: Pro at position 281
+  Observed: P (93.1% conserved)
+  Alignment column: 569
+  Function: Invariant
+
+G-289      [PARTIAL ]
+  Expected: Gly at position 289
+  Observed: G (96.4% conserved)
+  Alignment column: 586
+  Function: Invariant
+
+G-344      [PASS    ]
+  Expected: Gly at position 344
+  Observed: G (100.0% conserved)
+  Alignment column: 695
+  Function: Invariant
+
+H-285      [PARTIAL ]
+  Expected: His at position 285
+  Observed: H (93.1% conserved)
+  Alignment column: 573
+  Function: Iron binding
+
+H-290      [PARTIAL ]
+  Expected: His at position 290
+  Observed: H (96.4% conserved)
+  Alignment column: 587
+  Function: Iron binding
+
+E-330      [FAIL    ]
+  Expected: Glu at position 330
+  Observed: E (96.6% conserved)
+  Alignment column: 671
+  Function: Iron binding
+
+P-225      [PARTIAL ]
+  Expected: Pro at position 225
+  Observed: P (93.1% conserved)
+  Alignment column: 496
+  Function: Invariant
+
+R-270      [FAIL    ]
+  Expected: Arg at position 270
+  Observed: R (90.0% conserved)
+  Alignment column: 558
+  Function: Salt bridge
+
+D-282      [FAIL    ]
+  Expected: Asp at position 282
+  Observed: D (89.7% conserved)
+  Alignment column: 570
+  Function: Salt bridge
+
+E-353      [FAIL    ]
+  Expected: Glu at position 353
+  Observed: E (90.0% conserved)
+  Alignment column: 704
+  Function: Invariant
+
