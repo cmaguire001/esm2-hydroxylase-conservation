@@ -1,0 +1,17 @@
+# Core dependencies for aromatic hydroxylase analysis
+requests>=2.31.0
+biopython>=1.81
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# For sequence alignment and analysis
+clustalo>=1.2.4  # ClustalOmega wrapper (requires system clustalo installed)
+
+# Optional: for interactive notebooks
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+
+# For statistical analysis
+scipy>=1.10.0

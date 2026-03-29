@@ -1,0 +1,139 @@
+{
+  "analysis_metadata": {
+    "original_year": 2011,
+    "replication_year": 2026,
+    "original_dataset_size": 108,
+    "representative_dataset_size": "20-30",
+    "subfamilies": ["PAH", "TH", "TPH", "YOMO"],
+    "description": "Ground truth from 2011 poster analysis of aromatic amino acid hydroxylases"
+  },
+  
+  "invariant_residues": {
+    "description": "11 residues showing 100% conservation across all 108 sequences in original analysis",
+    "residues": [
+      {
+        "amino_acid": "Ser",
+        "position": 349,
+        "code": "S-349",
+        "functional_role": "Invariant",
+        "notes": "Structurally conserved"
+      },
+      {
+        "amino_acid": "Pro",
+        "position": 281,
+        "code": "P-281",
+        "functional_role": "Invariant",
+        "notes": "Structurally conserved"
+      },
+      {
+        "amino_acid": "Gly",
+        "position": 289,
+        "code": "G-289",
+        "functional_role": "Invariant",
+        "notes": "Structurally conserved"
+      },
+      {
+        "amino_acid": "Gly",
+        "position": 344,
+        "code": "G-344",
+        "functional_role": "Invariant",
+        "notes": "Structurally conserved"
+      },
+      {
+        "amino_acid": "His",
+        "position": 285,
+        "code": "H-285",
+        "functional_role": "Iron binding",
+        "functional_group": "Iron binding triad",
+        "notes": "Critical for catalytic activity"
+      },
+      {
+        "amino_acid": "His",
+        "position": 290,
+        "code": "H-290",
+        "functional_role": "Iron binding",
+        "functional_group": "Iron binding triad",
+        "notes": "Critical for catalytic activity"
+      },
+      {
+        "amino_acid": "Glu",
+        "position": 330,
+        "code": "E-330",
+        "functional_role": "Iron binding",
+        "functional_group": "Iron binding triad",
+        "notes": "Critical for catalytic activity"
+      },
+      {
+        "amino_acid": "Pro",
+        "position": 225,
+        "code": "P-225",
+        "functional_role": "Invariant",
+        "notes": "Structurally conserved"
+      },
+      {
+        "amino_acid": "Arg",
+        "position": 270,
+        "code": "R-270",
+        "functional_role": "Salt bridge",
+        "functional_group": "Salt bridge pair",
+        "notes": "Electrostatic interaction with D-282"
+      },
+      {
+        "amino_acid": "Asp",
+        "position": 282,
+        "code": "D-282",
+        "functional_role": "Salt bridge",
+        "functional_group": "Salt bridge pair",
+        "notes": "Electrostatic interaction with R-270"
+      },
+      {
+        "amino_acid": "Glu",
+        "position": 353,
+        "code": "E-353",
+        "functional_role": "Invariant",
+        "notes": "Structurally conserved"
+      }
+    ]
+  },
+  
+  "functional_groups": {
+    "iron_binding_triad": {
+      "description": "Three residues that coordinate the catalytic iron atom",
+      "residues": ["H-285", "H-290", "E-330"],
+      "positions": [285, 290, 330],
+      "biochemical_role": "Essential for hydroxylation reaction",
+      "conservation_expected": "100%"
+    },
+    "salt_bridge": {
+      "description": "Ionic interaction between positively and negatively charged residues",
+      "residues": ["R-270", "D-282"],
+      "positions": [270, 282],
+      "biochemical_role": "Structural stabilization",
+      "conservation_expected": "100%"
+    },
+    "structural_invariants": {
+      "description": "Residues conserved for structural reasons",
+      "residues": ["S-349", "P-281", "G-289", "G-344", "P-225", "E-353"],
+      "positions": [349, 281, 289, 344, 225, 353],
+      "biochemical_role": "Maintain protein fold and flexibility",
+      "conservation_expected": "100%"
+    }
+  },
+  
+  "validation_criteria": {
+    "conservation_threshold": 1.0,
+    "description": "All 11 residues should show 100% conservation",
+    "expected_outcomes": [
+      "All iron binding triad residues (H-285, H-290, E-330) conserved",
+      "Both salt bridge residues (R-270, D-282) conserved",
+      "All 6 structural invariants conserved",
+      "Total: 11 residues at 100% conservation"
+    ]
+  },
+  
+  "position_numbering_notes": {
+    "reference_sequence": "Human PAH (or specify which sequence was used for numbering)",
+    "alignment_dependency": "Positions listed are from original reference sequence. After MSA, these will map to alignment columns.",
+    "mapping_required": "In Phase 3, you'll need to map these positions to MSA columns"
+  }
+}
